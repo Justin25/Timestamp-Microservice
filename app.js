@@ -31,6 +31,6 @@ app.get('/dateValues/:dateVal', function(req,res,next){
     }
     res.json({unix: unixDate, natural: naturalDate});
 });
-app.listen(3000, function(){
+app.listen(5000, function(){
     console.log('Working');
 });
